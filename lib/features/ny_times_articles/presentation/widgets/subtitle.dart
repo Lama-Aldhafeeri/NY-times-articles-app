@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tree_assignment/features/ny_times_articles/domain/entities/article.dart';
+import 'package:ny_times_articles/features/ny_times_articles/domain/entities/article.dart';
 
 class SubtitleWidget extends StatelessWidget {
   const SubtitleWidget({

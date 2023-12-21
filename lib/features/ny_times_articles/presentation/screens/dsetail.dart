@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tree_assignment/features/ny_times_articles/domain/entities/article.dart';
-import 'package:tree_assignment/features/ny_times_articles/presentation/widgets/back_icon.dart';
-import 'package:tree_assignment/features/ny_times_articles/presentation/widgets/image.dart';
+import 'package:ny_times_articles/features/ny_times_articles/domain/entities/article.dart';
+import 'package:ny_times_articles/features/ny_times_articles/presentation/widgets/back_icon.dart';
+import 'package:ny_times_articles/features/ny_times_articles/presentation/widgets/image.dart';
 
 class DetailScreen extends StatelessWidget {
   const DetailScreen({super.key, required this.article});

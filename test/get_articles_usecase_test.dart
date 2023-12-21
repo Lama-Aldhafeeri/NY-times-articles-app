@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:tree_assignment/features/ny_times_articles/domain/entities/article.dart';
-import 'package:tree_assignment/features/ny_times_articles/domain/repositories/article_repository.dart';
-import 'package:tree_assignment/features/ny_times_articles/domain/usecases/get_articles_usecase.dart';
+import 'package:ny_times_articles/features/ny_times_articles/domain/entities/article.dart';
+import 'package:ny_times_articles/features/ny_times_articles/domain/repositories/article_repository.dart';
+import 'package:ny_times_articles/features/ny_times_articles/domain/usecases/get_articles_usecase.dart';
 
 // Mock class for ArticleRepository
 class MockArticleRepository extends Mock implements ArticleRepository {}
