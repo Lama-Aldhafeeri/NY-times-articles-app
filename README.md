@@ -1,4 +1,4 @@
-The "NY Times Most Popular Articles" app is built with Flutter and follows the Clean Architecture pattern, which separates the code into layers for better maintainability and testability. Here's a brief overview of how the app works:
+The "NY Times Most Popular Articles" app is built with Flutter and follows the Clean Architecture pattern, which separates the code into layers for better maintainability and testability. The app's primary purpose is to fetch articles from an API that requires an API key. To maintain security, the API key is stored in a .env file, which is excluded from version control. Here's a brief overview of how the app works:
 
 1. **Presentation Layer (presentation/):**
 - This layer handles the user interface and user interaction using Flutter widgets.
